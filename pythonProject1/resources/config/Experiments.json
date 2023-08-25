@@ -1,0 +1,23 @@
+{
+  "Experiments":
+          [
+            {
+              "ExpKey":"default",
+              "DisplayName": "默认",
+              "resourceKey":"payloads",
+              "TTSMethod": "edge-tts",
+              "TTSVoiceKey": "",
+              "ASRMethod": "",
+              "LLMMethod": ""
+            },
+            {
+              "ExpKey":"default",
+              "DisplayName": "策略A",
+              "resourceKey":"payloads",
+              "TTSMethod": "",
+              "TTSVoiceKey": "",
+              "ASRMethod": "",
+              "LLMMethod": ""
+            }
+          ]
+}
