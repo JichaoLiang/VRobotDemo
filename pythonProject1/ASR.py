@@ -9,8 +9,12 @@ class ASR:
         return resultText
         pass
 
+    def xunfeiRecognition(self, audioData):
+        pass
+
     strategyDict = {
-        "default": defaultRecognition
+        "default": defaultRecognition,
+        "xunfei": xunfeiRecognition
     }
 
     def process(__self__, strategyID : str | None, audioData):

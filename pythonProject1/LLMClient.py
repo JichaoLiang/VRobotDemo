@@ -9,7 +9,7 @@ class LLMClient:
         pass
 
     strategyDict = {
-        "default": defaultChat
+        "default": defaultChat,
         "localGLM2": localGLMChat
     }
 
